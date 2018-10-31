@@ -1,13 +1,12 @@
 // import React from "react";
 import "./GabeCard.css";
-
 import React, { Component } from "react";
  
 class Gabe extends Component {
   render() {
     return (
       <div>
-        <h2>Gabe Scoggin</h2>
+        <h2>This is the home page</h2>
         <p>Cras facilisis urna ornare ex volutpat, et
         convallis erat elementum. Ut aliquam, ipsum vitae
         gravida suscipit, metus dui bibendum est, eget rhoncus nibh

@@ -1,10 +1,10 @@
 import React, { Component } from "react";
  
-class Contact extends Component {
+class Work extends Component {
   render() {
     return (
       <div>
-        <h2>STUFF</h2>
+        <h2>Work</h2>
         <p>Mauris sem velit, vehicula eget sodales vitae,
         rhoncus eget sapien:</p>
         <ol>
@@ -19,4 +19,4 @@ class Contact extends Component {
   }
 }
  
-export default Contact;
+export default Work;
