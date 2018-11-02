@@ -24,11 +24,11 @@ class App extends Component {
     return (
       <HashRouter>
         <div>
-          <h1>Gabe Scoggin</h1>
-          <ul className="header">
-            <li><NavLink to="/">Gabe</NavLink></li>
-            <li><NavLink to="/work">Work</NavLink></li>
-            <li><NavLink to="/contact">Contact</NavLink></li>
+          {/* <h1>Gabe Scoggin</h1> */}
+          <ul className="header stroke">
+            <li><NavLink to="/">About Me</NavLink></li>
+            <li><NavLink to="/work">My Work</NavLink></li>
+            <li><NavLink to="/contact">Contact Me</NavLink></li>
           </ul>
           <div className="content">
           <Route exact path="/" component={Gabe}/>
