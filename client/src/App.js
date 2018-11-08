@@ -10,6 +10,7 @@ import './App.css';
 import Gabe from "./components/GabeCard";
 import Work from "./components/WorkCard";
 import Contact from "./components/ContactCard";
+import Footer from "./components/Footer";
 // import Wrapper from "./components/Wrapper";
 // import Title from "./components/Title";
 // import Card from "./components/Card";
@@ -22,6 +23,7 @@ import Contact from "./components/ContactCard";
 class App extends Component {
   render() {
     return (
+      <div>
       <HashRouter>
         <div>
           {/* <h1>Gabe Scoggin</h1> */}
@@ -35,8 +37,10 @@ class App extends Component {
           <Route path="/work" component={Work}/>
           <Route path="/contact" component={Contact}/>
           </div>
-        </div>
+        </div>    
       </HashRouter>
+      <Footer></Footer>
+      </div>
     );
   }
 }

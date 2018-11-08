@@ -3,7 +3,7 @@ import "./Nav.css";
 
 const Nav = props => (
   <nav>
-    <ul>
+    <ul className="header stroke">
       <li className="liOne" id="one">
         <h1><a href="#TBD">Work</a></h1>
       </li>
