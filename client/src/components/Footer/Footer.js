@@ -9,16 +9,10 @@ import { Col, Container, Row, Footer } from "mdbreact";
           <Row className="my-4">
             <Col md="4" lg="4">
               <h5 className="text-uppercase mb-4 font-weight-bold">
-                Footer Content
+                Gabe Scoggin
               </h5>
               <p>
-                Here you can use rows and columns here to organize your footer
-                content.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-                error amet numquam iure provident voluptate esse quasi,
-                veritatis totam voluptas nostrum.{" "}
+                I'm a Senior Technical Program Manager and Developer with a passion for technology, art and design. I have years of experience building excellent teams and managing big projects.{" "}
               </p>
             </Col>
             <hr className="clearfix w-100 d-md-none" />
@@ -26,39 +20,27 @@ import { Col, Container, Row, Footer } from "mdbreact";
               <h5 className="text-uppercase mb-4 font-weight-bold">About</h5>
               <ul className="list-unstyled">
                 <p>
-                  <a href="#!">PROJECTS</a>
+                  <a href="#!">LINKEDIN</a>
                 </p>
                 <p>
-                  <a href="#!">ABOUT US</a>
+                  <a href="#!">RESUME</a>
                 </p>
                 <p>
-                  <a href="#!">BLOG</a>
-                </p>
-                <p>
-                  <a href="#!">AWARDS</a>
+                  <a href="#!">GITHUB</a>
                 </p>
               </ul>
             </Col>
             <hr className="clearfix w-100 d-md-none" />
             <Col md="5" lg="3">
-              <h5 className="text-uppercase mb-4 font-weight-bold">Address</h5>
+              <h5 className="text-uppercase mb-4 font-weight-bold">CONTACT</h5>
               <p>
-                <i className="fa fa-home mr-3" /> New York, NY 10012, US
-              </p>
-              <p>
-                <i className="fa fa-envelope mr-3" /> info@example.com
-              </p>
-              <p>
-                <i className="fa fa-phone mr-3" /> + 01 234 567 88
-              </p>
-              <p>
-                <i className="fa fa-print mr-3" /> + 01 234 567 89
+                <i className="fa fa-phone mr-3" />gabescoggin@gmail.com
               </p>
             </Col>
             <hr className="clearfix w-100 d-md-none" />
             <Col md="2" lg="2" className="text-center">
               <h5 className="text-uppercase mb-4 font-weight-bold">
-                Follow us
+                Follow Me
               </h5>
               <div className="mt-2 ">
                 <a type="button" className="btn-floating btn-small btn-fb">
@@ -66,12 +48,6 @@ import { Col, Container, Row, Footer } from "mdbreact";
                 </a>
                 <a type="button" className="btn-floating btn-small btn-tw">
                   <i className="fa fa-twitter" />
-                </a>
-                <a type="button" className="btn-floating btn-small btn-gplus">
-                  <i className="fa fa-google-plus" />
-                </a>
-                <a type="button" className="btn-floating btn-small btn-dribbble">
-                  <i className="fa fa-dribbble" />
                 </a>
               </div>
             </Col>
